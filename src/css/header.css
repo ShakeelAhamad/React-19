@@ -1,0 +1,34 @@
+.header{
+    background-color: azure;
+    display: flex;
+    justify-content:space-between;
+    padding:10px
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.header ul {
+    display: flex;
+    list-style: none;
+    width: 300px;
+    justify-content: space-around;
+}
+.header ul li{
+    padding: 10px;
+}
+.header .link h4{
+   margin: 0;
+}
+.header .link {
+    text-decoration: none;
+}
+.college .nav-link{
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.active{
+   font-weight: bold;
+}
